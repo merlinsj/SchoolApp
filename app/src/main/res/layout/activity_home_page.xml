@@ -1,0 +1,35 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:gravity="center"
+    android:background="#D4E3F4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:background="#388cce"
+        android:textColor="@color/white"
+        android:layout_margin="30px"
+        android:id="@+id/profbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attendance"
+        android:background="#388CCE"
+        android:layout_margin="30px"
+        android:textColor="@color/white"
+        android:id="@+id/attbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESULTS"
+        android:background="#388CCE"
+        android:layout_margin="30px"
+        android:textColor="@color/white"
+        android:id="@+id/resultbtn"/>
+
+</LinearLayout>
